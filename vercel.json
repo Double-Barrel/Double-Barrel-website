@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "//": "Security headers for the Double Barrel site. This file takes effect when double-barrel/ is the ROOT of its own Vercel project — i.e. at launch, when the site moves into Cornie's own Vercel account (see admin/README.md launch checklist). It is inert while the folder is just a subdirectory of the shared demo project.",
+  
   "headers": [
     {
       "source": "/(.*)",
