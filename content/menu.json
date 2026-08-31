@@ -1,0 +1,118 @@
+{
+  "note": "Transcribed from clear photos of the four printed menu pages (Aug 2026). Prices shown exactly as typed, so '$27 / $39' works for two sizes. Each section may carry a 'note' that renders as fine print under its list.",
+  "intro": "Every steak & entrée comes with your choice of side, the soup & salad bar, and a dinner roll.",
+  "sections": [
+    {
+      "title": "Steaks",
+      "column": 1,
+      "note": "Entrées served with your choice of fries, tater tots, fresh-cut fries, sweet potato fries, mashed, homemade potato chips, Highway 40 fries, baked potato, or rice. Add 5 large grilled shrimp or 4 large breaded fantail shrimp to any entrée for $7.",
+      "items": [
+        { "name": "Iron Rancher Porterhouse · 22 oz", "price": "$49", "desc": "Certified Angus, charbroiled & seasoned with our house seasoning, served with au jus." },
+        { "name": "Boulder Cut Ribeye · 18 oz", "price": "$39", "desc": "Prime cut, hand cut, charbroiled & seasoned with our house seasoning, house-made au jus." },
+        { "name": "Cattleman's Choice New York Strip · 15 oz", "price": "$33", "desc": "Certified Angus, charbroiled, house seasoning & house-made au jus." },
+        { "name": "Homestead Cowboys Choice · 12 oz", "price": "$31", "desc": "Hand-cut Angus sirloin, charbroiled & seasoned with our house seasoning, served with au jus." },
+        { "name": "Homestead Jr Sirloin · 8 oz", "price": "$24", "desc": "Angus beef, charbroiled & seasoned with house seasoning & au jus." },
+        { "name": "Sass HamBurger Steak · 14 oz", "price": "$23", "desc": "Angus beef seasoned with our house seasoning, house-made au jus." },
+        { "name": "Smokehouse Slab Ham Steak · 18 oz", "price": "$22", "desc": "Grilled bone-in ham steak, seared with roasted pineapple habanero, honey, or brown sugar glaze." },
+        { "name": "Gridiron Pork Chop · 10 oz", "price": "$22", "desc": "Charbroiled boneless prime pork chop." },
+        { "name": "Prime Rib <em>(Only Friday)</em>", "price": "$27 / $39", "desc": "12 oz or 16 oz. Seasoned with our in-house seasoning, served with house-made au jus." }
+      ]
+    },
+    {
+      "title": "Seafood, Chicken & Alfredo",
+      "column": 1,
+      "items": [
+        { "name": "Canadian Walleye · 12 oz", "price": "$26", "desc": "Walleye fillet, grilled. Seasoning: Cajun, lemon pepper, garlic butter, roasted pineapple habanero glaze, or none." },
+        { "name": "Atlantic Salmon", "price": "$26", "desc": "Wild-caught Norwegian Atlantic salmon, grilled. Same seasoning choices as the walleye." },
+        { "name": "Shrimp", "price": "$21", "desc": "7 jumbo lightly breaded shrimp." },
+        { "name": "Grilled Shrimp", "price": "$21", "desc": "8 grilled shrimp served with melted butter." },
+        { "name": "Chicken Breasts Grilled · 6 oz", "price": "$20", "desc": "Topped with raspberry chipotle BBQ, Old West BBQ, or raspberry habanero sauce." },
+        { "name": "Breaded Chicken Breast · 6 oz", "price": "$20", "desc": "Choice of sauce: raspberry habanero, ranch, Old West BBQ, raspberry chipotle, sweet chili, or garlic parmesan." },
+        { "name": "Alfredo", "price": "$18 / $21 / $23", "desc": "Penne pasta in a cheesy creamy garlic sauce. Plain $18 · chicken $21 · shrimp $23." }
+      ]
+    },
+    {
+      "title": "Burgers",
+      "column": 1,
+      "note": "Add cheese $1 · bacon $2 to any burger or sandwich. Deluxe any burger $1. Burgers & sandwiches do NOT come with the salad bar — substitute a side salad for $7.",
+      "items": [
+        { "name": "Classic Burger", "price": "$14", "desc": "Half-lb fresh burger patty on a toasted bun with choice of side. Add cheese $1." },
+        { "name": "Cowboy Burger", "price": "$16", "desc": "8 oz patty topped with onion rings, pepper jack & BBQ sauce on a toasted bun." },
+        { "name": "Mushroom Swiss Burger", "price": "$16", "desc": "8 oz patty topped with mushrooms & Swiss cheese on a toasted bun." },
+        { "name": "Classic Bacon Cheeseburger", "price": "$17", "desc": "8 oz patty topped with bacon & American cheese on a toasted bun." },
+        { "name": "Jack Daniel Bourbon Burger", "price": "$17", "desc": "8 oz burger with choice of cheese and bacon, smothered in bourbon glaze." },
+        { "name": "Patty Melt", "price": "$17", "desc": "10 oz hand-pressed SD-grown Hadrick Angus beef, caramelized onion, choice of cheese on toasted rye." },
+        { "name": "Trapper Burger", "price": "$17", "desc": "8 oz patty with bacon, jalapeños, pepper jack & BBQ sauce on a toasted bun." },
+        { "name": "Double Barrel Cheese Burger", "price": "$19", "desc": "Two 8 oz patties topped with four slices of American cheese." }
+      ]
+    },
+    {
+      "title": "Salads",
+      "column": 1,
+      "items": [
+        { "name": "Chicken Salad — Grilled or Crispy", "price": "$19", "desc": "Seasoned & grilled chicken breast." },
+        { "name": "Grilled Chislic Salad", "price": "$21", "desc": "10 oz seasoned & grilled chislic." },
+        { "name": "Soup & Salad Bar", "price": "$16", "desc": "The one folks drive in for." }
+      ]
+    },
+    {
+      "title": "Sandwiches",
+      "column": 2,
+      "items": [
+        { "name": "Philly Cheese Steak Sandwich", "price": "$16", "desc": "Grilled chopped sirloin, roasted peppers, caramelized onion, choice of cheese on a toasted hoagie with house au jus." },
+        { "name": "Fish Sandwich", "price": "$15", "desc": "Crispy cod with mayo and choice of cheese on a toasted hoagie bun." },
+        { "name": "Shrimply Divine", "price": "$15", "desc": "Crunchy breaded shrimp patty, choice of cheese, raspberry habanero or peppercorn ranch sauce." },
+        { "name": "Chicken Sandwich", "price": "$13", "desc": "Grilled or crispy chicken breast, mayo, tomato, lettuce, American cheese & BBQ sauce, with choice of side." }
+      ]
+    },
+    {
+      "title": "Baskets",
+      "column": 2,
+      "note": "Baskets, burgers & sandwiches served with your choice of fries, tots, fresh-cut fries, homemade potato chips, sweet potato fries, or Highway 40 fries.",
+      "items": [
+        { "name": "Beef Chislic · 10 oz", "price": "$18", "desc": "Cubed hand-cut sirloin seasoned with house seasoning & house au jus." },
+        { "name": "Walleye Nuggets", "price": "$16", "desc": "Breaded walleye nuggets with choice of 1 sauce." },
+        { "name": "Bone In Wings", "price": "$15", "desc": "8 rotisserie chicken wings, choice of 1 sauce." },
+        { "name": "Shrimp Basket", "price": "$15", "desc": "7 large breaded shrimp, choice of 1 sauce." },
+        { "name": "Wild Alaska Fish Nugget", "price": "$13", "desc": "Wild Alaska cod fish nuggets, choice of 1 sauce." },
+        { "name": "Boneless Wings", "price": "$12", "desc": "½ lb breaded boneless wings, choice of 1 sauce." },
+        { "name": "Chicken Tenders", "price": "$12", "desc": "Breaded chicken tenders with choice of side." },
+        { "name": "Turkey Breast Strips", "price": "$10", "desc": "8 oz breaded turkey breast strip, choice of 1 sauce." }
+      ]
+    },
+    {
+      "title": "Appetizers",
+      "column": 2,
+      "note": "Dipping sauces: marinara · nacho cheese · garlic parmesan · raspberry habanero · sweet chili · ranch · salsa · Old West BBQ. Dry rubs: Johnny's seasoning salt · lemon pepper · butter garlic · Cajun · salt & vinegar · Martin County Magic.",
+      "items": [
+        { "name": "Walleye Nuggets", "price": "$15", "desc": "With choice of side." },
+        { "name": "Pork Chislic · 10 oz", "price": "$12", "desc": "Grilled, with choice of one sauce." },
+        { "name": "Bone In Chix Wings", "price": "$12", "desc": "8 rotisserie wings, choice of 1 sauce or dry rub." },
+        { "name": "Egg Rolls", "price": "$11", "desc": "3 Philly cheesesteak rolls & choice of 1 sauce." },
+        { "name": "Battered Cheddar Cheese Balls", "price": "$11", "desc": "With choice of 1 sauce." },
+        { "name": "Breaded Onion Rings", "price": "$10", "desc": "Large breaded onion rings with choice of 1 sauce." },
+        { "name": "Wild Alaskan Fish Nuggets", "price": "$10", "desc": "8 wild Alaskan fish nuggets with choice of 1 sauce." },
+        { "name": "Turkey Breast Strips", "price": "$10", "desc": "8 oz breaded turkey breast strip, choice of 1 sauce." },
+        { "name": "Mini Tacos", "price": "$9", "desc": "10 mini tacos with choice of salsa or nacho cheese." },
+        { "name": "Mac & Cheese Bacon Bites", "price": "$9", "desc": "With choice of 1 sauce." },
+        { "name": "Breaded Boneless Wings", "price": "$9", "desc": "½ lb breaded chicken wings served with one sauce." },
+        { "name": "Battered Mushrooms", "price": "$8", "desc": "With choice of 1 sauce." },
+        { "name": "Breaded Mozzarella Stick", "price": "$8", "desc": "6 breaded mozzarella sticks with marinara sauce." },
+        { "name": "Chip & Dip", "price": "$7", "desc": "Tortilla chips served with salsa & nacho cheese." }
+      ]
+    },
+    {
+      "title": "Kids Choices",
+      "column": 2,
+      "note": "Kids meals are served with small fries and a small fountain pop or small milk. For kids 10 and under.",
+      "items": [
+        { "name": "Kids Chicken Tenders", "price": "$5", "desc": "" },
+        { "name": "Corn Dogs", "price": "$5", "desc": "8 mini corn dogs." },
+        { "name": "Mini Tacos", "price": "$5", "desc": "6 mini tacos, choice of 1 sauce." },
+        { "name": "Kids Wild Alaskan Fish Nuggets", "price": "$5", "desc": "4 wild Alaskan fish nuggets with choice of 1 sauce." },
+        { "name": "Mac & Cheese", "price": "$5", "desc": "" },
+        { "name": "Grilled Cheese", "price": "$5", "desc": "" }
+      ]
+    }
+  ]
+}

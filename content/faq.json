@@ -1,0 +1,39 @@
+{
+  "note": "The FAQ — written for the questions people actually ask Google and AI assistants. Every answer here also feeds the FAQPage structured data, so keep answers factual and current. Edit or add questions freely; keep answers to 2-3 plain sentences.",
+  "active": true,
+  "heading": "Good questions, straight answers.",
+  "items": [
+    {
+      "q": "Is Double Barrel Steakhouse open today?",
+      "a": "We're open Tuesday through Sunday. Sunday 11 AM – 8 PM; Tuesday and Wednesday 11 AM – 2 PM and 4 – 8 PM (closed for an afternoon break 2–4); Thursday through Saturday 11 AM – 9 PM. Closed Mondays."
+    },
+    {
+      "q": "When is prime rib night?",
+      "a": "Fridays only — slow-roasted with our house seasoning and homemade au jus, 12 oz for $27 or 16 oz for $39, while it lasts."
+    },
+    {
+      "q": "What are the nightly specials?",
+      "a": "8 oz Sirloin ($24) on Sunday and Tuesday, 14 oz HamBurger Steak ($23) Wednesday and Thursday, prime rib on Fridays, and Steak Specials Saturday — usually more than one cut, posted on our Facebook."
+    },
+    {
+      "q": "Do you take call-in or carry-out orders?",
+      "a": "Yes — call (605) 532-7777 and we'll have it ready. Dine-in and carry-out, with a full bar in house."
+    },
+    {
+      "q": "Can I book the back room for a party?",
+      "a": "Yes. The back room seats about 50 for birthdays, banquets, meetings, and card nights. Call (605) 532-7777 to book a date."
+    },
+    {
+      "q": "Does every meal come with the salad bar?",
+      "a": "Steaks and entrées come with the soup & salad bar, a side, and a dinner roll. Burgers, sandwiches, and baskets don't — you can substitute a side salad for $7, or add the full salad bar as its own item ($16)."
+    },
+    {
+      "q": "Do you have a kids menu?",
+      "a": "Yes — for kids 10 and under: chicken tenders, mini corn dogs, mini tacos, fish nuggets, mac & cheese, or grilled cheese, each $5 with small fries and a small pop or milk."
+    },
+    {
+      "q": "Where is Double Barrel Steakhouse?",
+      "a": "106 Main Street in Henry, South Dakota — about 18 miles west of Watertown on Highway 212. Easy parking on Main Street, with room for trucks."
+    }
+  ]
+}

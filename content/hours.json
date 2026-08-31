@@ -1,0 +1,14 @@
+{
+  "note": "Kitchen hours. 'closed': true for a closed day. oh/ch are open/close on a 24-hour clock and power the 'Open now' badge. bs/be are an optional afternoon break (closed between bs and be); 0 = no break.",
+  "days": [
+    { "day": "Sunday",    "text": "11:00 AM – 8:00 PM", "oh": 11, "ch": 20, "bs": 0,  "be": 0,  "closed": false },
+    { "day": "Monday",    "text": "Closed",             "oh": 0,  "ch": 0,  "bs": 0,  "be": 0,  "closed": true  },
+    { "day": "Tuesday",   "text": "11 AM – 2 PM · 4 – 8 PM", "oh": 11, "ch": 20, "bs": 14, "be": 16, "closed": false },
+    { "day": "Wednesday", "text": "11 AM – 2 PM · 4 – 8 PM", "oh": 11, "ch": 20, "bs": 14, "be": 16, "closed": false },
+    { "day": "Thursday",  "text": "11:00 AM – 9:00 PM", "oh": 11, "ch": 21, "bs": 0,  "be": 0,  "closed": false },
+    { "day": "Friday",    "text": "11:00 AM – 9:00 PM", "oh": 11, "ch": 21, "bs": 0,  "be": 0,  "closed": false },
+    { "day": "Saturday",  "text": "11:00 AM – 9:00 PM", "oh": 11, "ch": 21, "bs": 0,  "be": 0,  "closed": false }
+  ],
+  "barNote": "Bar open late Tuesday–Sunday · dine-in & carry-out",
+  "footerSummary": "Closed Mon<br>Tue/Wed 11–2 & 4–8<br>Sun 11–8 · Thu/Fri/Sat 11–9"
+}

@@ -1,0 +1,12 @@
+{
+  "note": "The printed menu, page by page. This is a SUPPLEMENT to the typed menu above it — the searchable HTML menu stays the primary one, because text inside a photo is invisible to Google and to AI assistants. Add a page: upload the image, give it a label.",
+  "active": true,
+  "heading": "See the printed menu",
+  "intro": "The same menu we hand you at the table. Tap any page to read it full-size.",
+  "pages": [
+    { "label": "Steaks & Salads",       "image": "images/menu-page-1.jpg" },
+    { "label": "Seafood, Chicken & Nightly Features", "image": "images/menu-page-2.jpg" },
+    { "label": "Burgers, Sandwiches & Baskets",       "image": "images/menu-page-3.jpg" },
+    { "label": "Appetizers & Kids",     "image": "images/menu-page-4.jpg" }
+  ]
+}

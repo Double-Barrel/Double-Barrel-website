@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Referenced by robots.txt. Single-page site: one URL, section anchors are
+     not separate pages. Update <lastmod> when content changes meaningfully.
+     LAUNCH: if the final domain differs from doublebarrelsteakhouse.com,
+     update the <loc> here AND the Sitemap: line in robots.txt together. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.doublebarrelsteakhouse.com/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.doublebarrelsteakhouse.com/story/</loc>
+    <lastmod>2026-08-28</lastmod>
+  </url>
+</urlset>

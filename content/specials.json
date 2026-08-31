@@ -1,0 +1,24 @@
+{
+  "note": "The nightly rotation. 'day' is 0=Sunday through 6=Saturday. 'todayOverride' beats the rotation for one day — use it for the noon daily special, then clear it. 'featured' is the multi-item list for Saturdays (usually more than one cut) — copy the same words from the Facebook post into here; no separate Facebook login or automation involved.",
+  "todayOverride": {
+    "active": false,
+    "title": "",
+    "line": ""
+  },
+  "featured": {
+    "active": false,
+    "heading": "This Week's Steak Specials",
+    "note": "Saturdays usually run more than one cut. Paste in whatever you posted to Facebook, then flip 'active' on. Flip it off (or clear the items) once the week's over.",
+    "items": []
+  },
+  "fallbackTitle": "The salad bar never takes a day off.",
+  "fallbackLine": "Homemade soups and salads daily — and watch this space for holiday feature menus.",
+  "rotation": [
+    { "day": 0, "name": "8 oz Sirloin",            "line": "$24 — 8 oz Angus sirloin, charbroiled, house seasoning & homemade au jus. Confirmed live." },
+    { "day": 2, "name": "8 oz Sirloin",            "line": "$24 — 8 oz Angus sirloin, charbroiled, house seasoning & homemade au jus. Daily specials posted at noon." },
+    { "day": 3, "name": "14 oz HamBurger Steak",   "line": "$23 — 14 oz Angus beef, house seasoning & homemade au jus." },
+    { "day": 4, "name": "14 oz HamBurger Steak",   "line": "$23 — 14 oz Angus beef, house seasoning & homemade au jus." },
+    { "day": 5, "name": "Prime Rib",        "line": "Slow-roasted, house seasoning & homemade au jus — 12 oz or 16 oz, $27/$39. Fridays only, while it lasts." },
+    { "day": 6, "name": "Steak Specials", "line": "Usually more than one cut — see this week's list below, straight from Cornie's Saturday Facebook post." }
+  ]
+}

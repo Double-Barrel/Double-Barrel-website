@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>Double Barrel — Edit Your Website</title>
+<!-- ======================================================================
+     THE EDITOR (Decap CMS — open source, MIT licensed)
+
+     This is the whole "backend." There is no database and no CMS company:
+     the site's content lives as plain files in the owner's own GitHub repo
+     (see /content/*.json), this page is the editing interface for them, and
+     saving commits straight to that repo. Vercel sees the commit and
+     rebuilds — live in about a minute.
+
+     If this page is ever taken down, the website keeps running exactly as
+     it is. Nothing here is load-bearing for the public site.
+     ====================================================================== -->
+<style>
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+  #nc-root:empty::after{
+    content:"Loading the editor…";display:block;padding:60px 24px;
+    text-align:center;color:#6b5748;font-size:15px}
+</style>
+</head>
+<body>
+<div id="nc-root"></div>
+<!-- Version PINNED deliberately (no ^ range): a caret range lets the CDN serve
+     new code into the editor without review. Bump it on purpose, after testing.
+     Launch hardening: add an integrity="sha384-..." SRI hash for this exact
+     version so a compromised CDN can't swap the file. -->
+<script src="https://unpkg.com/decap-cms@3.3.3/dist/decap-cms.js"></script>
+</body>
+</html>

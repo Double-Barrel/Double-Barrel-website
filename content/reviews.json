@@ -1,0 +1,12 @@
+{
+  "note": "Guest reviews shown in the carousel. Quotes must be real and verbatim — copy them from Facebook, don't paraphrase. Edited at /admin/ under Reviews.",
+  "heading": "Regulars for a reason.",
+  "footLine": "94% of guests recommend Double Barrel",
+  "items": [
+    { "quote": "Food was delicious and service was good.", "name": "Denika B.", "source": "Facebook review" },
+    { "quote": "Seasonings and cuts of meat are awesome.", "name": "Scott H.", "source": "Facebook review" },
+    { "quote": "Great service and good food. Highly recommend.", "name": "Phillip M.", "source": "Facebook review" },
+    { "quote": "Great food, great service, and fun atmosphere.", "name": "Todd B.", "source": "Facebook review" },
+    { "quote": "Best chislic and fresh-cut fries ever!", "name": "Local regular", "source": "Facebook review" }
+  ]
+}

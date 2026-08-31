@@ -1,0 +1,10 @@
+{
+  "note": "BACKEND-ONLY ledger — nothing on the website reads this file. Cornie's B2B perk program: meal cards and drink tickets given to partner companies to distribute to their teams. Public-facing treatment is a future decision pending his copy (Zach, 2026-08-26).",
+  "partners": [
+    {
+      "company": "JNR Feeds (spelling unconfirmed — may be J&R Feeds)",
+      "perks": "3 meal cards + drink tickets for their team",
+      "notes": "Feed company. Cornie gives cards/tickets for the team to distribute — drives traffic to the restaurant. Get exact company spelling and his program copy at the handoff meeting."
+    }
+  ]
+}

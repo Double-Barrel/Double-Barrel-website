@@ -1,0 +1,17 @@
+# Double Barrel Steakhouse — LAUNCH robots.txt
+#
+# NOTE: while this site lives inside the shared demo project, the parent
+# external-demos/robots.txt (Disallow: /) is the one Google actually sees,
+# which is correct for an unsold demo. This file becomes the live one the
+# moment double-barrel/ becomes the root of its own Vercel project.
+#
+# LAUNCH CHECK: after go-live, fetch https://<the-domain>/robots.txt and
+# confirm it shows THIS file, not a Disallow-all. If the demo-phase block
+# ships by mistake, the site is invisible to Google and the whole local
+# search play silently fails.
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+
+Sitemap: https://www.doublebarrelsteakhouse.com/sitemap.xml

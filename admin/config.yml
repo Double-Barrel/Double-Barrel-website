@@ -1,0 +1,282 @@
+# =========================================================================
+# Double Barrel Steakhouse — content editor configuration (Decap CMS)
+#
+# SOVEREIGNTY NOTE: this config points at the CLIENT'S OWN GitHub repo.
+# Decap is open-source and runs entirely from this site — there is no
+# third-party CMS company, no monthly platform bill, and no account that
+# Liberty Forge controls. Cornie logs in with his own GitHub account.
+# Saving here commits to his repo, Vercel rebuilds, the site is live in
+# about a minute.
+#
+# BEFORE LAUNCH: change `repo` below to the client's real GitHub repo and
+# set up the GitHub OAuth app (see admin/README.md).
+# =========================================================================
+
+backend:
+  name: github
+  repo: OWNER/REPO            # <-- set to Cornie's repo at launch
+  branch: main
+  # OAuth broker: deploy ../double-barrel-oauth-broker as its own Vercel
+  # project in the CLIENT'S account (10-min setup — that folder's README),
+  # then set base_url to its URL and uncomment auth_endpoint.
+  base_url: https://api.netlify.com   # <-- replace with the broker URL at launch
+  # auth_endpoint: api/auth           # <-- uncomment at launch
+
+# Lets us run the editor locally against real files during the build:
+#   npx decap-server   →   then open /admin/ on localhost
+local_backend: true
+
+# Cornie's editor, branded as his: the Double Barrel logo on the login screen
+# and a "View Site" button in the top bar. Paths are correct once the site is
+# the root of its own project at launch (see admin/README.md).
+logo_url: /images/logo.png
+site_url: https://www.doublebarrelsteakhouse.com
+display_url: https://www.doublebarrelsteakhouse.com
+
+media_folder: "images"
+public_folder: "images"
+
+# Friendlier labels than the defaults
+publish_mode: simple
+
+collections:
+  # ---------------------------------------------------------------- HOURS
+  - name: "hours"
+    label: "Hours"
+    files:
+      - name: "hours"
+        label: "Kitchen Hours"
+        file: "content/hours.json"
+        description: "Change your open and close times. The website's green 'Open now' badge updates automatically."
+        fields:
+          - { name: note, label: "Internal note", widget: hidden }
+          - name: days
+            label: "The week"
+            widget: list
+            min: 7
+            max: 7
+            hint: "Always exactly 7 days — to close a day, flip 'Closed this day?' instead of deleting the row."
+            fields:
+              - { name: day,    label: "Day",              widget: string }
+              - { name: text,   label: "Shown on the site", widget: string, hint: "e.g. 11:00 AM – 9:00 PM, or Closed" }
+              - { name: closed, label: "Closed this day?",  widget: boolean, default: false }
+              - name: oh
+                label: "Opens at"
+                widget: select
+                default: 11
+                hint: "Ignored if the day is closed."
+                options:
+                  - { label: "9 AM",  value: 9 }
+                  - { label: "10 AM", value: 10 }
+                  - { label: "11 AM", value: 11 }
+                  - { label: "Noon",  value: 12 }
+                  - { label: "1 PM",  value: 13 }
+                  - { label: "2 PM",  value: 14 }
+                  - { label: "3 PM",  value: 15 }
+                  - { label: "4 PM",  value: 16 }
+              - name: ch
+                label: "Kitchen closes at"
+                widget: select
+                default: 21
+                options:
+                  - { label: "6 PM",  value: 18 }
+                  - { label: "7 PM",  value: 19 }
+                  - { label: "8 PM",  value: 20 }
+                  - { label: "9 PM",  value: 21 }
+                  - { label: "10 PM", value: 22 }
+                  - { label: "11 PM", value: 23 }
+              - name: bs
+                label: "Afternoon break starts"
+                widget: select
+                default: 0
+                hint: "The mid-day close (like Tue/Wed 2–4). Pick 'No break' if the kitchen runs straight through."
+                options:
+                  - { label: "No break", value: 0 }
+                  - { label: "1 PM", value: 13 }
+                  - { label: "2 PM", value: 14 }
+                  - { label: "3 PM", value: 15 }
+              - name: be
+                label: "Break ends (reopens at)"
+                widget: select
+                default: 0
+                options:
+                  - { label: "No break", value: 0 }
+                  - { label: "3 PM", value: 15 }
+                  - { label: "4 PM", value: 16 }
+                  - { label: "5 PM", value: 17 }
+          - { name: barNote,        label: "Bar note",          widget: string }
+          - { name: footerSummary,  label: "Footer summary",    widget: string, hint: "Short version shown in the footer. HTML <br> allowed." }
+
+  # ------------------------------------------------------------- SPECIALS
+  - name: "specials"
+    label: "Specials"
+    files:
+      - name: "specials"
+        label: "Specials & Nightly Rotation"
+        file: "content/specials.json"
+        description: "Post today's special at noon, or set the standing weekly rotation."
+        fields:
+          - { name: note, label: "Internal note", widget: hidden }
+          - name: todayOverride
+            label: "Today's special (overrides the rotation)"
+            widget: object
+            fields:
+              - { name: active, label: "Show this today", widget: boolean, default: false }
+              - { name: title,  label: "Headline",        widget: string, required: false }
+              - { name: line,   label: "Description",     widget: text,   required: false }
+          - name: featured
+            label: "Saturday's Featured Specials (usually more than one cut)"
+            widget: object
+            hint: "Same words you post to Facebook — just paste them in. No Facebook login needed here."
+            fields:
+              - { name: active,  label: "Show this list on the site", widget: boolean, default: false }
+              - { name: heading, label: "Heading", widget: string, default: "This Week's Steak Specials" }
+              - name: items
+                label: "This week's cuts"
+                widget: list
+                required: false
+                fields:
+                  - { name: name, label: "Cut / special name", widget: string }
+                  - { name: line, label: "Price & description", widget: string, required: false }
+          - name: rotation
+            label: "Weekly rotation"
+            widget: list
+            fields:
+              - { name: day,  label: "Day", widget: select, options: [
+                    { label: "Sunday", value: 0 }, { label: "Monday", value: 1 },
+                    { label: "Tuesday", value: 2 }, { label: "Wednesday", value: 3 },
+                    { label: "Thursday", value: 4 }, { label: "Friday", value: 5 },
+                    { label: "Saturday", value: 6 } ] }
+              - { name: name, label: "Special name", widget: string }
+              - { name: line, label: "Description",  widget: text }
+          - { name: fallbackTitle, label: "Default headline (days with no special)", widget: string }
+          - { name: fallbackLine,  label: "Default description",                     widget: text }
+
+  # ----------------------------------------------------------------- MENU
+  - name: "menu"
+    label: "Menu"
+    files:
+      - name: "menu"
+        label: "Food Menu & Prices"
+        file: "content/menu.json"
+        description: "Change a price, rename an item, add or remove dishes. The site refuses a near-empty menu — if too much gets deleted by accident, the last full menu stays up and nothing breaks."
+        fields:
+          - { name: note,  label: "Internal note", widget: hidden }
+          - { name: intro, label: "Line under the Menu heading", widget: text }
+          - name: sections
+            label: "Menu sections"
+            widget: list
+            min: 4
+            hint: "The editor won't go below 4 sections — a guard against wiping the menu by accident."
+            fields:
+              - { name: title,  label: "Section title", widget: string }
+              - { name: column, label: "Column (1 = left, 2 = right)", widget: number, default: 1 }
+              - name: items
+                label: "Items"
+                widget: list
+                min: 1
+                fields:
+                  - { name: name,  label: "Item",        widget: string }
+                  - { name: price, label: "Price",       widget: string, required: false, hint: "Type it exactly as it should appear, e.g. $27 or $27 / $39" }
+                  - { name: desc,  label: "Description", widget: text,   required: false }
+
+  # ---------------------------------------------------------- PRINTED MENU
+  - name: "printed_menu"
+    label: "Printed Menu"
+    files:
+      - name: "printed-menu"
+        label: "Printed Menu Pages"
+        file: "content/printed-menu.json"
+        description: "Photos or scans of the real printed menu, shown under the main menu. This is a bonus for people who want to see the real thing — the typed menu above it is the one Google reads, so keep that one up to date first."
+        fields:
+          - { name: note,    label: "Internal note",         widget: hidden }
+          - { name: active,  label: "Show this on the site", widget: boolean, default: true }
+          - { name: heading, label: "Section heading",       widget: string,  default: "See the printed menu" }
+          - { name: intro,   label: "Line under the heading", widget: text,   required: false }
+          - name: pages
+            label: "Pages"
+            widget: list
+            required: false
+            hint: "Add one per menu page, in the order they should be read."
+            fields:
+              - { name: label, label: "Page name", widget: string, hint: "e.g. Cover, Steaks, Burgers & Baskets" }
+              - { name: image, label: "Page image", widget: image }
+
+  # -------------------------------------------------------------------- FAQ
+  - name: "faq"
+    label: "FAQ"
+    files:
+      - name: "faq"
+        label: "Questions & Answers"
+        file: "content/faq.json"
+        description: "The questions people ask Google and AI assistants — and your answers. Keep answers short, plain, and current; these also feed the search-engine data behind the scenes."
+        fields:
+          - { name: note,    label: "Internal note",         widget: hidden }
+          - { name: active,  label: "Show FAQ on the site",  widget: boolean, default: true }
+          - { name: heading, label: "Section heading",       widget: string,  default: "Good questions, straight answers." }
+          - name: items
+            label: "Questions"
+            widget: list
+            fields:
+              - { name: q, label: "Question", widget: string }
+              - { name: a, label: "Answer",   widget: text, hint: "2-3 plain sentences. Facts only — this is what Google may quote." }
+
+  # --------------------------------------------------------------- REVIEWS
+  - name: "reviews"
+    label: "Reviews"
+    files:
+      - name: "reviews"
+        label: "Guest Reviews"
+        file: "content/reviews.json"
+        description: "The rotating guest quotes on the homepage. Copy reviews word-for-word from Facebook — real names, real words, nothing made up."
+        fields:
+          - { name: note,    label: "Internal note",   widget: hidden }
+          - { name: heading, label: "Section heading", widget: string, default: "Regulars for a reason." }
+          - { name: footLine, label: "Line under the reviews", widget: string, required: false,
+              hint: "e.g. 94% of guests recommend Double Barrel — keep this a true, current number. The 'See more on Facebook' link stays automatically." }
+          - name: items
+            label: "Reviews"
+            widget: list
+            fields:
+              - { name: quote,  label: "What they said",  widget: text, hint: "Word-for-word from the review." }
+              - { name: name,   label: "Who said it",     widget: string, hint: "First name + last initial, e.g. Scott H." }
+              - { name: source, label: "Where it's from", widget: string, default: "Facebook review" }
+
+  # ----------------------------------------------------------- PARTNER PERKS
+  # BACKEND-ONLY for now (per Zach, 2026-08-26): nothing on the website reads
+  # this file yet. It's the ledger for Cornie's B2B perk program — meal cards
+  # and drink tickets handed to partner companies (e.g. JNR Feeds) for their
+  # teams. Public-facing treatment is a later decision, pending his copy.
+  - name: "partner_perks"
+    label: "Partner Perks (not on site yet)"
+    files:
+      - name: "partner-perks"
+        label: "Meal Cards & Drink Tickets"
+        file: "content/partner-perks.json"
+        description: "Private ledger of the meal-card / drink-ticket program for partner companies. This is NOT shown on the website — it's a record-keeping slot until we decide how (or whether) it appears publicly."
+        fields:
+          - { name: note, label: "Internal note", widget: hidden }
+          - name: partners
+            label: "Partner companies"
+            widget: list
+            required: false
+            fields:
+              - { name: company, label: "Company",  widget: string }
+              - { name: perks,   label: "What they get", widget: string, hint: "e.g. 3 meal cards + drink tickets for the team" }
+              - { name: notes,   label: "Notes",    widget: text, required: false }
+
+  # --------------------------------------------------------- FEATURED MOUNT
+  - name: "featured_mount"
+    label: "Featured Mount"
+    files:
+      - name: "featured-mount"
+        label: "Featured Mount of the Week"
+        file: "content/featured-mount.json"
+        description: "Pick a mount, tell its story, upload a photo. Cycle it whenever you like — same login as everything else."
+        fields:
+          - { name: note,    label: "Internal note",              widget: hidden }
+          - { name: active,  label: "Show this on the site",      widget: boolean, default: false }
+          - { name: heading, label: "Section heading",            widget: string,  default: "Featured Mount" }
+          - { name: name,    label: "Which mount / what it is",   widget: string,  required: false, hint: "e.g. \"The red stag — auction find, 2021\". They're Cornie's own collection, bought at auction — the story is the hunt for the mount itself." }
+          - { name: story,   label: "The story",                  widget: text,    required: false }
+          - { name: image,   label: "Photo",                      widget: image,   required: false }
