@@ -1,5 +1,6 @@
 # Double Barrel Steakhouse — How to Update Your Website
 
+
 ## The short version
 
 Go to **[your site]/admin/**, log in, click what you want to change, click Publish.
