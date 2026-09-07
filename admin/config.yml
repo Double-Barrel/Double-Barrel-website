@@ -13,18 +13,16 @@
 # =========================================================================
 
 backend:
-  name: github
-  repo: OWNER/REPO            # <-- set to Cornie's repo at launch
-  branch: main
-  # OAuth broker: deploy ../double-barrel-oauth-broker as its own Vercel
-  # project in the CLIENT'S account (10-min setup — that folder's README),
-  # then set base_url to its URL and uncomment auth_endpoint.
-  base_url: https://api.netlify.com   # <-- replace with the broker URL at launch
-  # auth_endpoint: api/auth           # <-- uncomment at launch
-
+    name: github
+    repo: Double-Barrel/Double-Barrel-website
+    branch: main
+    # OAuth broker: deploy ../double-barrel-oauth-broker as its own Vercel
+    # project in the CLIENT'S account (10-min setup — that folder's README),
+    # then set base_url to its URL and uncomment auth_endpoint.
+    base_url: https://db-cms-bridge.vercel.app
+    auth_endpoint: api/auth
 # Lets us run the editor locally against real files during the build:
 #   npx decap-server   →   then open /admin/ on localhost
-local_backend: true
 
 # Cornie's editor, branded as his: the Double Barrel logo on the login screen
 # and a "View Site" button in the top bar. Paths are correct once the site is
