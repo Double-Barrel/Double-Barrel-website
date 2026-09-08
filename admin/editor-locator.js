@@ -58,8 +58,8 @@
       "text-transform:uppercase;color:#C9A84C;margin-bottom:3px}" +
       "#" + BADGE_ID + " .lf-s{color:#E8B54A;font-weight:600}" +
       "#" + BADGE_ID + " .lf-n{opacity:.66;font-weight:400}" +
-      "." + HL_CLASS + "{box-shadow:0 0 0 2px #C9A84C,0 0 14px rgba(201,168,76,.30)!important;" +
-      "border-radius:5px;transition:box-shadow .14s}" +
+            "." + HL_CLASS + "{box-shadow:0 0 0 2px #B4530F,0 0 0 6px rgba(180,83,15,.16)!important;" +
+      "border-radius:5px;background:rgba(201,168,76,.07)!important;transition:box-shadow .14s,background .14s}" +
       "@media print{#" + BADGE_ID + "{display:none}}";
     document.head.appendChild(s);
   }
@@ -125,7 +125,7 @@
           var val = valueFor(hits[0]);
           if (!val) continue;
           found[lvl.kind] = val;
-          if (lvl.kind === "item" && !found.node) found.node = node;
+                    if (!found.node) found.node = node;
         }
       }
       if (found.section && found.item) break;
