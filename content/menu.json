@@ -169,23 +169,23 @@
       "items": [
         {
           "name": "Philly Cheese Steak Sandwich",
-          "price": "$16",
-          "desc": "Grilled chopped sirloin, roasted peppers, caramelized onion, choice of cheese on a toasted hoagie with house au jus."
+          "price": "$18",
+          "desc": "Grilled chopped Ribeye topped with roasted peppers, caramelized onion, choice of cheese on a toasted ciabatta bun & house au jus."
         },
         {
           "name": "Fish Sandwich",
-          "price": "$15",
-          "desc": "Crispy cod with mayo and choice of cheese on a toasted hoagie bun."
+          "price": "$18",
+          "desc": "2 Crispy Cod patties topped with choice of cheese, mayo on a toasted ciabatta bun "
         },
         {
           "name": "Shrimply Divine",
-          "price": "$15",
-          "desc": "Crunchy breaded shrimp patty, choice of cheese, raspberry habanero or peppercorn ranch sauce."
+          "price": "$16",
+          "desc": "Crunchy breaded shrimp patty, choice of cheese, raspberry habanero sauce on a toasted bun"
         },
         {
           "name": "Chicken Sandwich",
-          "price": "$13",
-          "desc": "Grilled or crispy chicken breast, mayo, tomato, lettuce, American cheese & BBQ sauce, with choice of side."
+          "price": "$15",
+          "desc": "Grilled or crispy chicken breast, mayo, tomato, lettuce, american cheese & BBQ sauce, on a toasted bun."
         }
       ]
     },
