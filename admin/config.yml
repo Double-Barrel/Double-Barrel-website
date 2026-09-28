@@ -28,8 +28,8 @@ backend:
 # and a "View Site" button in the top bar. Paths are correct once the site is
 # the root of its own project at launch (see admin/README.md).
 logo_url: /images/logo.png
-site_url: https://www.doublebarrelsteakhouse.com
-display_url: https://www.doublebarrelsteakhouse.com
+site_url: https://www.doublebarrelsteakhouse.restaurant
+display_url: https://www.doublebarrelsteakhouse.restaurant
 
 media_folder: "images"
 public_folder: "images"

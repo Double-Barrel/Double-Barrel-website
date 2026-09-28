@@ -1,12 +1,14 @@
 {
-  "note": "Guest reviews shown in the carousel. Quotes must be real and verbatim — copy them from Facebook, don't paraphrase. Edited at /admin/ under Reviews.",
+  "note": "Guest reviews shown in the carousel. Quotes must be real and VERBATIM — copy them word-for-word from Facebook, never paraphrase. Trimming to a shorter contiguous span is fine; changing words is not. All quotes below were verified against the live Facebook page on 2026-09-02. Edited at /admin/ under Reviews.",
   "heading": "Regulars for a reason.",
-  "footLine": "94% of guests recommend Double Barrel",
+  "footLine": "96% of guests recommend Double Barrel",
   "items": [
-    { "quote": "Food was delicious and service was good.", "name": "Denika B.", "source": "Facebook review" },
-    { "quote": "Seasonings and cuts of meat are awesome.", "name": "Scott H.", "source": "Facebook review" },
-    { "quote": "Great service and good food. Highly recommend.", "name": "Phillip M.", "source": "Facebook review" },
-    { "quote": "Great food, great service, and fun atmosphere.", "name": "Todd B.", "source": "Facebook review" },
-    { "quote": "Best chislic and fresh-cut fries ever!", "name": "Local regular", "source": "Facebook review" }
+    { "quote": "We were celebrating our 45th anniversary!!! So decided to drive to Henry to Double Barrel!!! So glad we did.", "name": "Mary Kay Y.", "source": "Facebook review" },
+    { "quote": "My wife and I stopped on our way to Aberdeen tonight. Both had the Prime Rib and it was cooked to perfection", "name": "Dennis B.", "source": "Facebook review" },
+    { "quote": "One of the best primes in the state. Great service, better food!", "name": "John K.", "source": "Facebook review" },
+    { "quote": "The best chislic and fresh cut fries ever! Added bonus — the soup and salad bar!", "name": "Karen B.", "source": "Facebook review" },
+    { "quote": "Once again, Double Barrel did not disappoint! Amazing service & absolutely delicious food!", "name": "Amber M. D.", "source": "Facebook review" },
+    { "quote": "Super Frosty tap beers. GREAT service yesterday!! Steaks are prepared just the way you order them.", "name": "Dennis G.", "source": "Facebook review" },
+    { "quote": "Always feel welcome with great service to boot", "name": "Randy S.", "source": "Facebook review" }
   ]
 }

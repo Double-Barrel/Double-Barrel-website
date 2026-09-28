@@ -6,7 +6,7 @@
 <title>Our Story — Double Barrel Steakhouse · Henry, SD</title>
 <meta name="description" content="You met our truck somewhere down the road. Double Barrel Steakhouse — hand-cut steaks, a wall of mounts, and a salad bar people drive 60 miles for. Henry, South Dakota.">
 <meta name="theme-color" content="#3B2314">
-<link rel="canonical" href="https://www.doublebarrelsteakhouse.com/story/">
+<link rel="canonical" href="https://www.doublebarrelsteakhouse.restaurant/story/">
 <!-- ======================================================================
      STORY LANDING — the vehicle-decal QR points here. Purpose (per Cornie):
      he travels; strangers see the truck; the scan says "I'm from the
@@ -113,11 +113,11 @@ footer a{color:var(--orange-hi)}
 
 <section class="reviews">
   <h2>What folks are saying</h2>
-  <div class="review-quote">Seasonings and cuts of meat are awesome.</div>
-  <div class="review-name">Scott H. — Facebook</div>
-  <div class="review-quote">Best chislic and fresh-cut fries ever!</div>
-  <div class="review-name">Local regular — Facebook</div>
-  <div class="review-foot">94% of guests recommend Double Barrel</div>
+  <div class="review-quote">My wife and I stopped on our way to Aberdeen tonight. Both had the Prime Rib and it was cooked to perfection</div>
+  <div class="review-name">Dennis B. — Facebook</div>
+  <div class="review-quote">We were celebrating our 45th anniversary!!! So decided to drive to Henry to Double Barrel!!! So glad we did.</div>
+  <div class="review-name">Mary Kay Y. — Facebook</div>
+  <div class="review-foot">96% of guests recommend Double Barrel</div>
 </section>
 
 <section>
@@ -135,50 +135,11 @@ footer a{color:var(--orange-hi)}
 
 <footer>
   Double Barrel Steakhouse · Henry, South Dakota<br>
-  <a href="../">doublebarrelsteakhouse.com</a>
+  <a href="../">doublebarrelsteakhouse.restaurant</a>
 </footer>
 
 </div>
 
-<script>
-(function(){
-  var ROTATION = [
-    {day:0,name:"8 oz Sirloin",line:"$24 — 8 oz Angus sirloin, charbroiled, house seasoning & homemade au jus."},
-    {day:2,name:"8 oz Sirloin",line:"$24 — 8 oz Angus sirloin, charbroiled, house seasoning & homemade au jus."},
-    {day:3,name:"14 oz HamBurger Steak",line:"$23 — 14 oz Angus beef, house seasoning & homemade au jus."},
-    {day:4,name:"14 oz HamBurger Steak",line:"$23 — 14 oz Angus beef, house seasoning & homemade au jus."},
-    {day:5,name:"Prime Rib",line:"Slow-roasted, house seasoning & homemade au jus — 12 oz or 16 oz, $27/$39. Fridays only, while it lasts."},
-    {day:6,name:"Steak Specials",line:"Saturday night — usually more than one cut on the board."}
-  ];
-  var FALLBACK_TITLE = "The salad bar never takes a day off.";
-  var FALLBACK_LINE = "Homemade soups and salads daily — and check the full site for tonight's cut.";
-  var CLOSED_MSG = "We're closed Mondays — but the rest of the week, there's always a cut on the board.";
-
-  var card = document.getElementById("special-card");
-  if(!card) return;
-
-  var today = new Date().getDay(); // 0=Sun
-  var hit = null;
-  for(var i=0;i<ROTATION.length;i++){
-    if(ROTATION[i].day === today){hit = ROTATION[i]; break;}
-  }
-
-  var html = "";
-  if(today === 1){
-    html = '<div class="special-label">Monday</div>';
-    html += '<div class="special-closed">' + CLOSED_MSG + '</div>';
-    document.getElementById("special-section").querySelector("h2").textContent = "We’re off tonight";
-  } else if(hit){
-    html = '<div class="special-label">Tonight’s Special</div>';
-    html += '<div class="special-name">' + hit.name + '</div>';
-    html += '<div class="special-line">' + hit.line + '</div>';
-  } else {
-    html = '<div class="special-label">On the menu</div>';
-    html += '<div class="special-name">' + FALLBACK_TITLE + '</div>';
-    html += '<div class="special-line">' + FALLBACK_LINE + '</div>';
-  }
-  card.innerHTML = html;
-})();
-</script>
+<script src="story.js"></script>
 </body>
 </html>
