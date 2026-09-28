@@ -102,22 +102,22 @@
       "items": [
         {
           "name": "Classic Burger",
-          "price": "$14",
+          "price": "$15",
           "desc": "Half-lb fresh burger patty on a toasted bun with choice of side. Add cheese $1."
         },
         {
           "name": "Cowboy Burger",
-          "price": "$16",
+          "price": "$17",
           "desc": "8 oz patty topped with onion rings, pepper jack & BBQ sauce on a toasted bun."
         },
         {
           "name": "Mushroom Swiss Burger",
-          "price": "$16",
+          "price": "$17",
           "desc": "8 oz patty topped with mushrooms & Swiss cheese on a toasted bun."
         },
         {
           "name": "Classic Bacon Cheeseburger",
-          "price": "$17",
+          "price": "$18",
           "desc": "8 oz patty topped with bacon & American cheese on a toasted bun."
         },
         {
@@ -127,12 +127,12 @@
         },
         {
           "name": "Patty Melt",
-          "price": "$17",
-          "desc": "10 oz hand-pressed SD-grown Hadrick Angus beef, caramelized onion, choice of cheese on toasted rye."
+          "price": "$18",
+          "desc": "8oz certified Angus beef topped with caramelized onion, choice of cheese on toasted\nCiabatta Bun"
         },
         {
           "name": "Trapper Burger",
-          "price": "$17",
+          "price": "$18",
           "desc": "8 oz patty with bacon, jalapeños, pepper jack & BBQ sauce on a toasted bun."
         },
         {
