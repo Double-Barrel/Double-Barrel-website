@@ -243,8 +243,8 @@
       "items": [
         {
           "name": "Walleye Nuggets",
-          "price": "$15",
-          "desc": "With choice of side."
+          "price": "$14",
+          "desc": " Walleye Nuggets with choice of 1 sauce"
         },
         {
           "name": "Pork Chislic · 10 oz",
@@ -253,17 +253,17 @@
         },
         {
           "name": "Bone In Chix Wings",
-          "price": "$12",
+          "price": "$13",
           "desc": "8 rotisserie wings, choice of 1 sauce or dry rub."
         },
         {
           "name": "Egg Rolls",
           "price": "$11",
-          "desc": "3 Philly cheesesteak rolls & choice of 1 sauce."
+          "desc": "3 cristy pork egg rolls with Choice of 1 Sauce "
         },
         {
           "name": "Battered Cheddar Cheese Balls",
-          "price": "$11",
+          "price": "$12",
           "desc": "With choice of 1 sauce."
         },
         {
@@ -293,22 +293,22 @@
         },
         {
           "name": "Breaded Boneless Wings",
-          "price": "$9",
-          "desc": "½ lb breaded chicken wings served with one sauce."
+          "price": "$10",
+          "desc": "½ lb breaded boneless chicken wings served with one sauce."
         },
         {
           "name": "Battered Mushrooms",
-          "price": "$8",
+          "price": "$9",
           "desc": "With choice of 1 sauce."
         },
         {
           "name": "Breaded Mozzarella Stick",
-          "price": "$8",
+          "price": "$9",
           "desc": "6 breaded mozzarella sticks with marinara sauce."
         },
         {
           "name": "Chip & Dip",
-          "price": "$7",
+          "price": "$8",
           "desc": "Tortilla chips served with salsa & nacho cheese."
         }
       ]
