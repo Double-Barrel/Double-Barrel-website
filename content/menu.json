@@ -60,22 +60,22 @@
       "items": [
         {
           "name": "Canadian Walleye · 12 oz",
-          "price": "$26",
+          "price": "$27",
           "desc": "Walleye fillet, grilled. Seasoning: Cajun, lemon pepper, garlic butter, roasted pineapple habanero glaze, or none."
         },
         {
           "name": "Atlantic Salmon",
-          "price": "$26",
+          "price": "$27",
           "desc": "Wild-caught Norwegian Atlantic salmon, grilled. Same seasoning choices as the walleye."
         },
         {
           "name": "Shrimp",
-          "price": "$21",
+          "price": "$22",
           "desc": "7 jumbo lightly breaded shrimp."
         },
         {
           "name": "Grilled Shrimp",
-          "price": "$21",
+          "price": "$22",
           "desc": "8 grilled shrimp served with melted butter."
         },
         {
@@ -90,7 +90,7 @@
         },
         {
           "name": "Alfredo",
-          "price": "$18 / $21 / $23",
+          "price": "$18 / $22 / $24",
           "desc": "Penne pasta in a cheesy creamy garlic sauce. Plain $18 · chicken $21 · shrimp $23."
         }
       ]
