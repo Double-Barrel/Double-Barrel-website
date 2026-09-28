@@ -14,7 +14,7 @@
   "fallbackTitle": "The salad bar never takes a day off.",
   "fallbackLine": "Homemade soups and salads daily — and watch this space for holiday feature menus.",
   "rotation": [
-    { "day": 0, "name": "8 oz Sirloin",            "line": "$24 — 8 oz Angus sirloin, charbroiled, house seasoning & homemade au jus. Confirmed live." },
+    { "day": 0, "name": "8 oz Sirloin",            "line": "$24 — 8 oz Angus sirloin, charbroiled, house seasoning & homemade au jus." },
     { "day": 2, "name": "8 oz Sirloin",            "line": "$24 — 8 oz Angus sirloin, charbroiled, house seasoning & homemade au jus. Daily specials posted at noon." },
     { "day": 3, "name": "14 oz HamBurger Steak",   "line": "$23 — 14 oz Angus beef, house seasoning & homemade au jus." },
     { "day": 4, "name": "14 oz HamBurger Steak",   "line": "$23 — 14 oz Angus beef, house seasoning & homemade au jus." },

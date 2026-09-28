@@ -36,7 +36,8 @@
     { label: "Day", kind: "item" },
     { label: "Guest quote", kind: "item" },
     { label: "Question", kind: "item" },
-    { label: "Company", kind: "item" }
+    { label: "Company", kind: "item" },
+    { label: "Occasion", kind: "item" }
   ];
 
   var BADGE_ID = "lf-locator";

@@ -1,0 +1,15 @@
+{
+  "note": "Holiday banners. Each one shows itself 'days_before' days ahead of its date and hides itself the day after. Edited at /admin/ under Holiday Specials.",
+  "items": [
+    {
+      "occasion": "Veterans Day",
+      "date": "2026-11-11",
+      "repeats_yearly": true,
+      "days_before": 10,
+      "title": "Veterans Eat Free",
+      "message": "On Veterans Day, veterans eat free at Double Barrel, lunch or supper. Thank you for your service.",
+      "fine_print": "",
+      "active": true
+    }
+  ]
+}

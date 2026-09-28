@@ -68,6 +68,14 @@ text-decoration:none;position:relative;transition:.15s}
 color:var(--gold);text-align:center;padding:4px 0}
 footer{text-align:center;padding:26px 0 46px;color:var(--cream-dim);font-size:14px}
 footer a{color:var(--orange-hi)}
+/* Holiday banner (holiday.js). Hidden unless a holiday is coming up. */
+.holiday{padding:34px 22px;text-align:center;background:linear-gradient(180deg,#8B2232,#6E1A27);border-top:3px solid #B4530F;border-bottom:3px solid #B4530F}
+.holiday[hidden]{display:none}
+.holiday-inner{max-width:720px;margin:0 auto}
+.holiday-when{display:block;font-family:'Oswald',sans-serif;font-weight:600;font-size:12.5px;letter-spacing:.22em;text-transform:uppercase;color:#F0D9B5}
+.holiday-title{font-family:'Rye',serif;font-weight:400;color:#F5EFE6;font-size:clamp(28px,6vw,40px);line-height:1.12;margin:8px 0 10px}
+.holiday-line{color:#F5EFE6;font-size:clamp(16px,3.4vw,19px);line-height:1.5;max-width:46ch;margin:0 auto}
+.holiday-fine{color:#E6D6C6;font-size:13px;margin:10px auto 0;max-width:52ch}
 </style>
 </head>
 <body>
@@ -83,6 +91,8 @@ footer a{color:var(--orange-hi)}
 </header>
 
 <!-- Tonight's special — filled by JS from the rotation -->
+<section class="holiday" id="holidayBand" data-src="../content/holidays.json" hidden></section>
+
 <section id="special-section">
   <h2>What's on tonight</h2>
   <div class="special-card" id="special-card">
@@ -141,5 +151,6 @@ footer a{color:var(--orange-hi)}
 </div>
 
 <script src="story.js"></script>
+<script src="../holiday.js"></script>
 </body>
 </html>

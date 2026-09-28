@@ -24,7 +24,7 @@ var HOURS = [
 
 var ROTATION = [
   /* dayIndex 0=Sun … 6=Sat. Confirmed with Cornie Waldner in person, 2026-08. */
-  { d: 0, name: "8 oz Sirloin",            line: "$24 — 8 oz Angus sirloin, charbroiled, house seasoning & homemade au jus. Confirmed live." },
+  { d: 0, name: "8 oz Sirloin",            line: "$24 — 8 oz Angus sirloin, charbroiled, house seasoning & homemade au jus." },
   { d: 2, name: "8 oz Sirloin",            line: "$24 — 8 oz Angus sirloin, charbroiled, house seasoning & homemade au jus. Daily specials posted at noon." },
   { d: 3, name: "14 oz HamBurger Steak",   line: "$23 — 14 oz Angus beef, house seasoning & homemade au jus." },
   { d: 4, name: "14 oz HamBurger Steak",   line: "$23 — 14 oz Angus beef, house seasoning & homemade au jus." },

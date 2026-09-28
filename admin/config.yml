@@ -150,6 +150,31 @@ collections:
           - { name: fallbackTitle, label: "Default headline (days with no special)", widget: string }
           - { name: fallbackLine,  label: "Default description",                     widget: text }
 
+  # ---------------------------------------------------------------- HOLIDAYS
+  - name: "holidays"
+    label: "Holiday Specials"
+    files:
+      - name: "holidays"
+        label: "Holiday Banners"
+        file: "content/holidays.json"
+        description: "A red banner near the top of the website for a holiday offer. Each one appears on its own before its date and disappears on its own the day after. Nothing to remember to turn off."
+        fields:
+          - { name: note, label: "Internal note", widget: hidden }
+          - name: items
+            label: "Holidays"
+            label_singular: "Holiday"
+            widget: list
+            summary: "{{fields.occasion}} · {{fields.date}}"
+            fields:
+              - { name: occasion, label: "Occasion", widget: string, hint: "e.g. Veterans Day" }
+              - { name: date, label: "Date", widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, picker_utc: true }
+              - { name: repeats_yearly, label: "Same date every year?", widget: boolean, default: true, hint: "Yes for Veterans Day or the Fourth of July. No for holidays that move, like Thanksgiving. Then change the date each year." }
+              - { name: days_before, label: "Start showing how many days before?", widget: number, value_type: int, min: 0, max: 60, default: 10 }
+              - { name: title, label: "Headline", widget: string, hint: "Short. e.g. Veterans Eat Free" }
+              - { name: message, label: "Message", widget: text }
+              - { name: fine_print, label: "Fine print (optional)", widget: string, required: false }
+              - { name: active, label: "Turned on?", widget: boolean, default: true, hint: "Flip off to skip it this year without deleting it." }
+
   # ----------------------------------------------------------------- MENU
   - name: "menu"
     label: "Menu"
