@@ -196,43 +196,43 @@
       "items": [
         {
           "name": "Beef Chislic · 10 oz",
-          "price": "$18",
-          "desc": "Cubed hand-cut sirloin seasoned with house seasoning & house au jus."
+          "price": "$19",
+          "desc": "Cubed hand-cut sirloin seasoned with house seasoning & house au jus & choice of side"
         },
         {
           "name": "Walleye Nuggets",
-          "price": "$16",
-          "desc": "Breaded walleye nuggets with choice of 1 sauce."
+          "price": "$17",
+          "desc": "Breaded walleye nuggets with choice of 1 sauce & choice of side"
         },
         {
           "name": "Bone In Wings",
-          "price": "$15",
-          "desc": "8 rotisserie chicken wings, choice of 1 sauce."
+          "price": "$16",
+          "desc": "8 rotisserie chicken wings, choice of 1 sauce & choice of side"
         },
         {
           "name": "Shrimp Basket",
-          "price": "$15",
-          "desc": "7 large breaded shrimp, choice of 1 sauce."
+          "price": "$17",
+          "desc": "7 large breaded shrimp, choice of 1 sauce & choice of side"
         },
         {
           "name": "Wild Alaska Fish Nugget",
           "price": "$13",
-          "desc": "Wild Alaska cod fish nuggets, choice of 1 sauce."
+          "desc": "Wild Alaska cod fish nuggets, choice of 1 sauce & choice of side"
         },
         {
           "name": "Boneless Wings",
-          "price": "$12",
+          "price": "$13",
           "desc": "½ lb breaded boneless wings, choice of 1 sauce."
         },
         {
           "name": "Chicken Tenders",
-          "price": "$12",
+          "price": "$13",
           "desc": "Breaded chicken tenders with choice of side."
         },
         {
           "name": "Turkey Breast Strips",
-          "price": "$10",
-          "desc": "8 oz breaded turkey breast strip, choice of 1 sauce."
+          "price": "$14",
+          "desc": "8 oz breaded turkey breast strip, choice of 1 sauce & choice of side"
         }
       ]
     },
