@@ -94,7 +94,7 @@ function applyContent(bag) {
       };
     }
   }
-  if (bag.menu && menuLooksComplete(bag.menu)) renderMenu(bag.menu);
+  if (bag.menu && menuLooksComplete(bag.menu)) { renderMenu(bag.menu); window.DB_MENU = bag.menu; }
   var pm = bag["printed-menu"];
   if (pm) {
     PRINTED_MENU = {
@@ -698,6 +698,8 @@ function startSite() {
 
   /* ---- printed-menu gallery + lightbox ---- */
   buildPrintedMenu();
+  /* keep the printed-menu photos' prices in step with the editor (printed-prices.js) */
+  if (window.DBPrintedPrices && window.DB_MENU) window.DBPrintedPrices.apply(PRINTED_MENU.pages, window.DB_MENU);
 
   /* ---- FAQ (re-rendered from faq.json when it loads) ---- */
   renderFaq();

@@ -120,3 +120,16 @@ browsers block it. The site falls back to its built-in content and looks correct
 the demo is safe to hand over on a USB stick or open offline. To see the JSON
 pipeline actually working, serve it over HTTP (`python3 -m http.server`) or use the
 deployed URL.
+
+
+## Printed-menu photos stay in step with your prices
+
+The flipbook shows photos of the paper menu. When you change a price in the
+editor, the website repaints that price on the photo to match, so customers
+never see two different prices. Nothing to do on your end.
+
+- If you rename an item, its photo keeps the printed price. The typed menu is
+  always right.
+- If you upload new menu photos, they show exactly as photographed until
+  Liberty Forge re-measures where the prices sit.
+- Item descriptions on the photos are not repainted, only prices.

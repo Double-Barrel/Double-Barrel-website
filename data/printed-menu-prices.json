@@ -1,0 +1,1193 @@
+{
+ "note": "Where each price sits on the printed-menu photos, in image pixels. printed-prices.js repaints a price on the photo when the editor's menu price differs from what was printed. Tied to these exact photos: if a page photo is replaced, its size check fails and that page shows as photographed until the positions are re-measured (Liberty Forge does this).",
+ "entries": [
+  {
+   "image": "images/menu-page-1.jpg",
+   "size": [
+    1400,
+    1787
+   ],
+   "section": "Steaks",
+   "item": "Iron Rancher",
+   "part": 0,
+   "printed": "$49",
+   "box": [
+    1236,
+    230,
+    32,
+    17
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-1.jpg",
+   "size": [
+    1400,
+    1787
+   ],
+   "section": "Steaks",
+   "item": "Boulder Cut",
+   "part": 0,
+   "printed": "$39",
+   "box": [
+    1239,
+    325,
+    33,
+    17
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-1.jpg",
+   "size": [
+    1400,
+    1787
+   ],
+   "section": "Steaks",
+   "item": "Cattleman",
+   "part": 0,
+   "printed": "$33",
+   "box": [
+    1243,
+    426,
+    32,
+    16
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-1.jpg",
+   "size": [
+    1400,
+    1787
+   ],
+   "section": "Steaks",
+   "item": "Homestead Jr",
+   "part": 0,
+   "printed": "$24",
+   "box": [
+    1246,
+    517,
+    32,
+    18
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-1.jpg",
+   "size": [
+    1400,
+    1787
+   ],
+   "section": "Steaks",
+   "item": "Homestead Cowboys",
+   "part": 0,
+   "printed": "$31",
+   "box": [
+    1251,
+    586,
+    31,
+    17
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-1.jpg",
+   "size": [
+    1400,
+    1787
+   ],
+   "section": "Steaks",
+   "item": "Sass HamBurger",
+   "part": 0,
+   "printed": "$23",
+   "box": [
+    1252,
+    681,
+    33,
+    17
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-1.jpg",
+   "size": [
+    1400,
+    1787
+   ],
+   "section": "Steaks",
+   "item": "Smokehouse",
+   "part": 0,
+   "printed": "$22",
+   "box": [
+    1255,
+    754,
+    33,
+    17
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-1.jpg",
+   "size": [
+    1400,
+    1787
+   ],
+   "section": "Steaks",
+   "item": "Gridiron",
+   "part": 0,
+   "printed": "$22",
+   "box": [
+    1259,
+    851,
+    32,
+    17
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-1.jpg",
+   "size": [
+    1400,
+    1787
+   ],
+   "section": "Steaks",
+   "item": "Prime Rib",
+   "part": 0,
+   "printed": "$27",
+   "box": [
+    1150,
+    936,
+    36,
+    17
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-1.jpg",
+   "size": [
+    1400,
+    1787
+   ],
+   "section": "Steaks",
+   "item": "Prime Rib",
+   "part": 1,
+   "printed": "$39",
+   "box": [
+    1259,
+    935,
+    35,
+    18
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-1.jpg",
+   "size": [
+    1400,
+    1787
+   ],
+   "section": "Salads",
+   "item": "Chicken Salad",
+   "part": 0,
+   "printed": "$19",
+   "box": [
+    1271,
+    1190,
+    33,
+    18
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-1.jpg",
+   "size": [
+    1400,
+    1787
+   ],
+   "section": "Salads",
+   "item": "Grilled Chislic",
+   "part": 0,
+   "printed": "$21",
+   "box": [
+    1276,
+    1267,
+    31,
+    18
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-1.jpg",
+   "size": [
+    1400,
+    1787
+   ],
+   "section": "Salads",
+   "item": "Soup & Salad",
+   "part": 0,
+   "printed": "$16",
+   "box": [
+    1278,
+    1345,
+    33,
+    20
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-2.jpg",
+   "size": [
+    1400,
+    1720
+   ],
+   "section": "Seafood, Chicken & Alfredo",
+   "item": "Canadian Walleye",
+   "part": 0,
+   "printed": "$26",
+   "box": [
+    1232,
+    265,
+    31,
+    17
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-2.jpg",
+   "size": [
+    1400,
+    1720
+   ],
+   "section": "Seafood, Chicken & Alfredo",
+   "item": "Atlantic Salmon",
+   "part": 0,
+   "printed": "$26",
+   "box": [
+    1235,
+    356,
+    31,
+    16
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-2.jpg",
+   "size": [
+    1400,
+    1720
+   ],
+   "section": "Seafood, Chicken & Alfredo",
+   "item": "Shrimp",
+   "part": 0,
+   "printed": "$21",
+   "box": [
+    1242,
+    461,
+    29,
+    16
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-2.jpg",
+   "size": [
+    1400,
+    1720
+   ],
+   "section": "Seafood, Chicken & Alfredo",
+   "item": "Grilled Shrimp",
+   "part": 0,
+   "printed": "$21",
+   "box": [
+    1245,
+    542,
+    29,
+    16
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-2.jpg",
+   "size": [
+    1400,
+    1720
+   ],
+   "section": "Seafood, Chicken & Alfredo",
+   "item": "Chicken Breasts",
+   "part": 0,
+   "printed": "$20",
+   "box": [
+    1244,
+    625,
+    33,
+    17
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-2.jpg",
+   "size": [
+    1400,
+    1720
+   ],
+   "section": "Seafood, Chicken & Alfredo",
+   "item": "Breaded Chicken",
+   "part": 0,
+   "printed": "$20",
+   "box": [
+    1247,
+    735,
+    34,
+    18
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-2.jpg",
+   "size": [
+    1400,
+    1720
+   ],
+   "section": "Seafood, Chicken & Alfredo",
+   "item": "Alfredo",
+   "part": 0,
+   "printed": "$18",
+   "box": [
+    829,
+    840,
+    33,
+    23
+   ],
+   "weight": "800"
+  },
+  {
+   "image": "images/menu-page-2.jpg",
+   "size": [
+    1400,
+    1720
+   ],
+   "section": "Seafood, Chicken & Alfredo",
+   "item": "Alfredo",
+   "part": 1,
+   "printed": "$21",
+   "box": [
+    1031,
+    840,
+    37,
+    24
+   ],
+   "weight": "800"
+  },
+  {
+   "image": "images/menu-page-2.jpg",
+   "size": [
+    1400,
+    1720
+   ],
+   "section": "Seafood, Chicken & Alfredo",
+   "item": "Alfredo",
+   "part": 2,
+   "printed": "$23",
+   "box": [
+    1217,
+    840,
+    40,
+    23
+   ],
+   "weight": "800"
+  },
+  {
+   "image": "images/menu-page-2.jpg",
+   "size": [
+    1400,
+    1720
+   ],
+   "section": "Steaks",
+   "item": "Homestead Jr",
+   "part": 0,
+   "printed": "$24",
+   "box": [
+    300,
+    1106,
+    36,
+    20
+   ],
+   "weight": "800"
+  },
+  {
+   "image": "images/menu-page-2.jpg",
+   "size": [
+    1400,
+    1720
+   ],
+   "section": "Steaks",
+   "item": "Sass HamBurger",
+   "part": 0,
+   "printed": "$23",
+   "box": [
+    821,
+    1107,
+    37,
+    19
+   ],
+   "weight": "800"
+  },
+  {
+   "image": "images/menu-page-2.jpg",
+   "size": [
+    1400,
+    1720
+   ],
+   "section": "Steaks",
+   "item": "Prime Rib",
+   "part": 0,
+   "printed": "$27",
+   "box": [
+    1022,
+    1106,
+    34,
+    20
+   ],
+   "weight": "800"
+  },
+  {
+   "image": "images/menu-page-2.jpg",
+   "size": [
+    1400,
+    1720
+   ],
+   "section": "Steaks",
+   "item": "Prime Rib",
+   "part": 1,
+   "printed": "$39",
+   "box": [
+    1143,
+    1107,
+    44,
+    20
+   ],
+   "weight": "800"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Burgers",
+   "item": "Classic Burger",
+   "part": 0,
+   "printed": "$14",
+   "box": [
+    645,
+    218,
+    29,
+    17
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Burgers",
+   "item": "Cowboy Burger",
+   "part": 0,
+   "printed": "$16",
+   "box": [
+    645,
+    307,
+    32,
+    18
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Burgers",
+   "item": "Mushroom Swiss",
+   "part": 0,
+   "printed": "$16",
+   "box": [
+    646,
+    396,
+    31,
+    18
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Burgers",
+   "item": "Classic Bacon",
+   "part": 0,
+   "printed": "$17",
+   "box": [
+    648,
+    484,
+    29,
+    18
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Burgers",
+   "item": "Jack Daniel",
+   "part": 0,
+   "printed": "$17",
+   "box": [
+    1226,
+    221,
+    28,
+    16
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Burgers",
+   "item": "Patty Melt",
+   "part": 0,
+   "printed": "$17",
+   "box": [
+    1229,
+    308,
+    27,
+    16
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Burgers",
+   "item": "Trapper",
+   "part": 0,
+   "printed": "$17",
+   "box": [
+    1232,
+    418,
+    28,
+    17
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Burgers",
+   "item": "Double Barrel Cheese",
+   "part": 0,
+   "printed": "$19",
+   "box": [
+    1234,
+    508,
+    30,
+    17
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Sandwiches",
+   "item": "Philly",
+   "part": 0,
+   "printed": "$16",
+   "box": [
+    649,
+    722,
+    32,
+    18
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Sandwiches",
+   "item": "Chicken Sandwich",
+   "part": 0,
+   "printed": "$13",
+   "box": [
+    650,
+    842,
+    32,
+    17
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Sandwiches",
+   "item": "Fish Sandwich",
+   "part": 0,
+   "printed": "$15",
+   "box": [
+    1239,
+    715,
+    31,
+    17
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Sandwiches",
+   "item": "Shrimply",
+   "part": 0,
+   "printed": "$15",
+   "box": [
+    1243,
+    815,
+    30,
+    17
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Baskets",
+   "item": "Boneless Wings",
+   "part": 0,
+   "printed": "$12",
+   "box": [
+    653,
+    1095,
+    31,
+    18
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Baskets",
+   "item": "Chicken Tenders",
+   "part": 0,
+   "printed": "$12",
+   "box": [
+    654,
+    1164,
+    31,
+    19
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Baskets",
+   "item": "Wild Alaska",
+   "part": 0,
+   "printed": "$13",
+   "box": [
+    654,
+    1233,
+    31,
+    19
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Baskets",
+   "item": "Turkey Breast",
+   "part": 0,
+   "printed": "$10",
+   "box": [
+    653,
+    1304,
+    34,
+    19
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Baskets",
+   "item": "Bone In Wings",
+   "part": 0,
+   "printed": "$15",
+   "box": [
+    1253,
+    1088,
+    32,
+    19
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Baskets",
+   "item": "Shrimp Basket",
+   "part": 0,
+   "printed": "$15",
+   "box": [
+    1257,
+    1167,
+    32,
+    20
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Baskets",
+   "item": "Walleye Nuggets",
+   "part": 0,
+   "printed": "$16",
+   "box": [
+    1261,
+    1246,
+    32,
+    19
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-3.jpg",
+   "size": [
+    1400,
+    1767
+   ],
+   "section": "Baskets",
+   "item": "Beef Chislic",
+   "part": 0,
+   "printed": "$18",
+   "box": [
+    1263,
+    1318,
+    33,
+    19
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Appetizers",
+   "item": "Chip & Dip",
+   "part": 0,
+   "printed": "$7",
+   "box": [
+    634,
+    232,
+    22,
+    17
+   ],
+   "weight": "500"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Appetizers",
+   "item": "Battered Mushrooms",
+   "part": 0,
+   "printed": "$8",
+   "box": [
+    634,
+    302,
+    23,
+    18
+   ],
+   "weight": "500"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Appetizers",
+   "item": "Breaded Mozzarella",
+   "part": 0,
+   "printed": "$8",
+   "box": [
+    634,
+    369,
+    22,
+    17
+   ],
+   "weight": "500"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Appetizers",
+   "item": "Breaded Boneless",
+   "part": 0,
+   "printed": "$9",
+   "box": [
+    633,
+    435,
+    23,
+    17
+   ],
+   "weight": "500"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Appetizers",
+   "item": "Mini Tacos",
+   "part": 0,
+   "printed": "$9",
+   "box": [
+    633,
+    502,
+    23,
+    17
+   ],
+   "weight": "500"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Appetizers",
+   "item": "Mac & Cheese Bacon",
+   "part": 0,
+   "printed": "$9",
+   "box": [
+    633,
+    579,
+    23,
+    17
+   ],
+   "weight": "500"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Appetizers",
+   "item": "Turkey Breast",
+   "part": 0,
+   "printed": "$10",
+   "box": [
+    620,
+    646,
+    36,
+    19
+   ],
+   "weight": "500"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Appetizers",
+   "item": "Breaded Onion",
+   "part": 0,
+   "printed": "$10",
+   "box": [
+    1231,
+    231,
+    36,
+    18
+   ],
+   "weight": "500"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Appetizers",
+   "item": "Wild Alaskan",
+   "part": 0,
+   "printed": "$10",
+   "box": [
+    1233,
+    298,
+    35,
+    18
+   ],
+   "weight": "500"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Appetizers",
+   "item": "Egg Rolls",
+   "part": 0,
+   "printed": "$11",
+   "box": [
+    1232,
+    365,
+    33,
+    18
+   ],
+   "weight": "500"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Appetizers",
+   "item": "Battered Cheddar",
+   "part": 0,
+   "printed": "$11",
+   "box": [
+    1233,
+    433,
+    29,
+    18
+   ],
+   "weight": "500"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Appetizers",
+   "item": "Pork Chislic",
+   "part": 0,
+   "printed": "$12",
+   "box": [
+    1235,
+    500,
+    33,
+    19
+   ],
+   "weight": "500"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Appetizers",
+   "item": "Bone In Chix",
+   "part": 0,
+   "printed": "$12",
+   "box": [
+    1235,
+    568,
+    33,
+    18
+   ],
+   "weight": "500"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Appetizers",
+   "item": "Walleye Nuggets",
+   "part": 0,
+   "printed": "$15",
+   "box": [
+    1235,
+    636,
+    34,
+    18
+   ],
+   "weight": "500"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Kids Choices",
+   "item": "Kids Chicken",
+   "part": 0,
+   "printed": "$5",
+   "box": [
+    632,
+    1383,
+    21,
+    19
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Kids Choices",
+   "item": "Mini Tacos",
+   "part": 0,
+   "printed": "$5",
+   "box": [
+    632,
+    1432,
+    21,
+    19
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Kids Choices",
+   "item": "Kids Wild",
+   "part": 0,
+   "printed": "$5",
+   "box": [
+    632,
+    1511,
+    21,
+    18
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Kids Choices",
+   "item": "Corn Dogs",
+   "part": 0,
+   "printed": "$5",
+   "box": [
+    1260,
+    1382,
+    23,
+    18
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Kids Choices",
+   "item": "Mac & Cheese",
+   "part": 0,
+   "printed": "$5",
+   "box": [
+    1263,
+    1459,
+    21,
+    19
+   ],
+   "weight": "700"
+  },
+  {
+   "image": "images/menu-page-4.jpg",
+   "size": [
+    1400,
+    1795
+   ],
+   "section": "Kids Choices",
+   "item": "Grilled Cheese",
+   "part": 0,
+   "printed": "$5",
+   "box": [
+    1263,
+    1514,
+    23,
+    18
+   ],
+   "weight": "700"
+  }
+ ]
+}
